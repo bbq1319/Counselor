@@ -1,0 +1,281 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qhshef.counselor.FragmentIntro">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="심리검사소개"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimary"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:text="심리검사 종류를 클릭하시면 \n상세한 설명을 보실 수 있습니다."/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:text="성격검사"/>
+
+
+
+            <TextView
+                android:id="@+id/textMBTI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="MBTI 성격유형검사"/>
+
+            <TextView
+                android:id="@+id/textMBTIContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="16가지 성격유형을 통해 내 성격과 타인의 성격을 이해하도록 도와 자기탐색 및 대인관계증진에 도움이 되는 검사 \n문항 : 93문항 / 소요시간 : 15분" />
+
+
+
+            <TextView
+                android:id="@+id/textNeo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="NEO 성격검사"/>
+
+            <TextView
+                android:id="@+id/textNeoContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="개인의 성격에 대한 이해를 통해 강점과 약점파악 및 현재의 정서적 상태를 탐색하는 검사 \n문항 : 211문항 / 소요시간 : 25분" />
+
+
+
+            <TextView
+                android:id="@+id/textTCI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="TCI 기질 및 성격검사"/>
+
+            <TextView
+                android:id="@+id/textTCIContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="개인의 타고난 기질과 성격을 평가하여 개인의 감정양식, 행동패턴, 대인관계 양상 등을 폭넓게 이해할 수 있는 검사 \n문항 : 140문항 / 소요시간 : 20분" />
+
+
+
+            <TextView
+                android:id="@+id/textMMPI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="MMPI-2 다면서 인성검사"/>
+
+            <TextView
+                android:id="@+id/textMMPIContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="개인의 성격 특성과 심리적 어려움의 정도를 성격의 다양한 측면에서 측정 및 평가할 수 있는 검사 \n문항 : 567문항 / 소요시간 : 40분~1시간" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:paddingTop="10dp"
+                android:text="학습검사"/>
+
+
+
+            <TextView
+                android:id="@+id/textMLST"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="MLST 학습전략검사"/>
+
+            <TextView
+                android:id="@+id/textMLSTContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="학업 성취도에 영향을 미치는 심리적 특성, 동기 수준, 학습전략을 7개의 영역으로 세분화시켜 평가하는 검사 \n문항 : 185문항 / 소요시간 : 20분" />
+
+
+
+            <TextView
+                android:id="@+id/textUI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="U&amp;I 학습유형검사"/>
+
+            <TextView
+                android:id="@+id/textUIContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="학습과정 속 행동 및 태도, 성격양식을 측정하여 개인에게 가장 적합한 학습방법 파악 및 학습능력향상을 돕는 검사 \n문항 : 164문항 / 소요시간 : 20분" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:paddingTop="10dp"
+                android:text="진로검사"/>
+
+
+
+            <TextView
+                android:id="@+id/textHOLLAND"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="HOLLAND 직업적성검사"/>
+
+            <TextView
+                android:id="@+id/textHOLLANDContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:text="6가지 직업적성분야 코드(R-I-A-S-E-C)를 통해 성격특징 / 대표직업 / 전공계열 등의 직업적성을 구체적으로 알 수 있는 검사 \n문항 : 328문항 / 소요시간 : 30분" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:paddingTop="10dp"
+                android:text="기타"/>
+
+
+
+            <TextView
+                android:id="@+id/textPaint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="그림검사"/>
+
+            <TextView
+                android:id="@+id/textPaintContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="상담사와 함께 그림을 그리면서 그림을 통해 드러나는 개인의 무의식적 심리를 탐색하는 검사 \n상담사와 함께 / 소요시간 : 50분" />
+
+
+
+            <TextView
+                android:id="@+id/textSCT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#696969"
+                android:text="SCT문장완성검사"/>
+
+            <TextView
+                android:id="@+id/textSCTContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="미완성된 문장을 완성하여 개인의 무의식적 특성을 알 수 있는 검사 \n문항 : 50(서술형) / 소요시간 : 30분" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

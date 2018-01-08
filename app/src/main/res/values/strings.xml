@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">학생상담센터</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">심리검사소개</string>
+    <string name="title_notifications">예약 내역</string>
+    <string name="and">&amp;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
